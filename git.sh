@@ -1,3 +1,6 @@
-    git add .
-    git commit -m "Updated the repository! Please look at the specific changes since this is just a automated message"
-    git push -u origin master 
+echo "Please type the commit message: "
+read INPUT
+echo $INPUT is the commit message :D && sleep 1s   
+git add .
+git commit -m "$INPUT"
+#git push -u origin master 

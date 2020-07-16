@@ -3,4 +3,4 @@ read INPUT
 echo $INPUT is the commit message :D && sleep 1s   
 git add .
 git commit -m "$INPUT"
-#git push -u origin master 
+git push -u origin master 

@@ -14,6 +14,6 @@ for num in userList:
     numFinal += num * pos 
     pos *= 2 
 print(numFinal)
-
+# THIS IS A WIP
 
 
